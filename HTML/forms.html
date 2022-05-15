@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms demo</h1>
+
+    <form action="/tacos">
+        <p>
+            <label for="Username">Enter a Username</label>
+            <input id="Username" , type="text" , placeholder="username", name = "username">
+        </p>
+        <p>
+            <label for="password">Enter a Password</label>
+            <input id="password" , type="password" , placeholder="password", name = "pw">
+        </p>
+        <p>
+            <label for="colour">Enter a Number</label>
+            <input id="colour" type="number" , placeholder="Enter a number" min="1" max ="10">
+        </p>
+        <button>Submit</button>
+
+    </form>
+    <p>MY own form</p>
+    <form action = "https://www.youtube.com/results?">
+        <input id = "query" type = "text", name = "search_query">
+        <label for = "query">Query here</label>
+        <button>GO!!</button>
+    </form>
+
+    <h2>More inputs</h2>
+    <form action="\birds">
+        <input type="checkbox" name = "agree_tos" id = "agree", checked>
+        <label for = "agree">I agree</label>
+        <p>
+            <label for = "girl">girl</label>
+            <input type="radio" name="gender" id="girl" value = "girl">
+            <label for = "boy">boy</label>
+            <input type="radio" name="gender" id="boy" value = "boy">
+            <label for = "other">other</label>
+            <input type="radio" name="gender" id="other" value = "other">
+        </p>
+        <p>
+            <label for = "meal">Meal type</label>
+            <select name = "meal", id = "meal">
+                <option value = "fish">Fish</option>
+                <option value = "chix" selected>Chicken</option>
+                <option value = "veg">Vegeterian</option>
+            </select>
+        </p>
+        <p>
+            <label for = "volume">Volume</label>
+            <input type = "range" id = "volume" name = "volume" min = "0" max ="100" step = "5">
+        </p>
+        <button>Finalise</button>
+        <div>
+            <label for = "spec_req" ></label>
+            <textarea id = "spec_req" name = "spec_req" rows= "10" cols = "33" placeholder = "This is a placeholder"></textarea>
+        </div>
+        <h2>Required</h2>
+    </form>
+    <form action="/dummy">
+        <input type = "text" name = "first" id = "first" required>
+        <label for = "first">Enter First Name</label>
+        <p>
+            <input type = "text" id = "usernames" name = "usernames" minlength="5" maxlength = "20" required>
+            <label for = "usernames">Username</label>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
