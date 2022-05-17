@@ -1,0 +1,37 @@
+body{
+    margin:0;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+}
+
+#a{
+    background-color: antiquewhite;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-left:50px;
+    margin-bottom: 50px;
+}
+#b{
+    background-color: yellow;
+    border: 3px dashed red;
+    margin:200px;
+    
+}
+#c{
+    background-color: green;
+}
+
+div{
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px 20px;
+}
+h1{
+    margin:0;
+}
