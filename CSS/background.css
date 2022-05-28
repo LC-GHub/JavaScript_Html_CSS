@@ -1,0 +1,14 @@
+section {
+    width: 80%;
+    height: 800px;
+    /* background-image: url("https://img-12.stickers.cloud/packs/b1573442-76f3-4b00-9559-900da7b42961/webp/ad47f667-7609-41ea-a326-8d53081b4219.webp");
+    background-size: cover;
+    background-position: bottom; */
+    background: center/cover url("https://assets.justinmind.com/wp-content/uploads/2020/01/free-vector-image-designs-header-768x492.png");
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
