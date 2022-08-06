@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.pokemon {
+    display: inline-block;
+    text-align: center;
+}
+.pokemon img{
+    display: block;
+    transition: transform 0.1s;
+}
+
+.pokemon img:hover{
+    display: block;
+    transform: scale(1.5);
+}
